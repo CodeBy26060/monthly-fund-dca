@@ -1,0 +1,2 @@
+import{z as e}from"./app-scope-D4gJGP2y.js";import{A as t,f as n}from"./vscode-api-D4QUNFB4.js";var r=e();async function i(e,t){await e.invalidateQueries({queryKey:t}),o(t)}function a(){let e=(0,r.c)(2),n=t(),a;return e[0]===n?a=e[1]:(a=async e=>{await i(n,e)},e[0]=n,e[1]=a),a}function o(e){n.dispatchMessage(`query-cache-invalidate`,{queryKey:[...e]})}export{a as t};
+//# sourceMappingURL=invalidate-queries-and-broadcast-B1TbQi7G.js.map

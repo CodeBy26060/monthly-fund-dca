@@ -1,0 +1,2 @@
+import{a as e}from"./app-scope-D4gJGP2y.js";import{Fa as t}from"./app-server-manager-signals-CwJPQdLk.js";function n(n){return e(t,n)}export{n as t};
+//# sourceMappingURL=use-global-state-CETN_MKs.js.map

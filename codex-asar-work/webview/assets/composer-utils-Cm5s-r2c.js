@@ -1,0 +1,2 @@
+import{h as e,n as t}from"./vscode-api-D4QUNFB4.js";var n=`closed_agent_send_failed`;function r(e,t){let n=t.trim();return n.length===0?e:e.length===0||/\s$/.test(e)?`${e}${n}`:`${e} ${n}`}async function i(n,r,i){if(!r)return null;try{return(await t(`ide-context`,{params:n?{workspaceRoot:i}:void 0})).ideContext}catch(t){return e.error(`[Composer] failed to fetch ide-context`,{safe:{},sensitive:{error:t}}),null}}export{r as n,i as r,n as t};
+//# sourceMappingURL=composer-utils-Cm5s-r2c.js.map

@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "status": "submitted",
+  "stdout": "{\n  \"status\": \"submitted\",\n  \"payload_path\": \"C:\\\\Users\\\\admin\\\\Documents\\\\New project\\\\xhs_auto_publish_20260705_102318\\\\04_publish_payload.json\",\n  \"publish_mode\": \"publish\",\n  \"time\": \"2026-07-05T02:34:26.947Z\",\n  \"url\": \"https://creator.xiaohongshu.com/publish/publish?source=official&from=menu&target=video\"\n}",
+  "stderr": "",
+  "browser_result_path": "C:\\Users\\admin\\Documents\\New project\\xhs_auto_publish_20260705_102318\\publish_browser_result.json"
+}

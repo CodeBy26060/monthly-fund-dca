@@ -1,0 +1,92 @@
+# 基金定投辅助工具配置文件
+# 说明：
+# 1. 金额单位都是人民币元。
+# 2. SERVERCHAN_SENDKEY 和 PUSHPLUS_TOKEN 建议配置在 GitHub Actions 的 Secrets 中，
+#    config.yaml 里只保留环境变量占位符，不要把真实密钥提交到 GitHub。
+# 3. manual_current_value 是你每月从支付宝看到的这套组合当前总市值。
+#    默认 0 表示还没有填写；不影响估值查询、金额计算和定投提醒，
+#    但会暂停收益率计算对应的止盈提醒。
+
+basic_monthly_amount: 500
+
+# 任意基金计算金额大于 0 但低于这个值时，自动提高到该最低金额。
+min_purchase_amount: 10
+
+funds:
+  hs300:
+    name: 沪深300
+    full_name: 易方达沪深300ETF联接C
+    code: "007339"
+    weight: 0.40
+  chinext:
+    name: 创业板
+    full_name: 易方达创业板ETF联接C
+    code: "004744"
+    weight: 0.30
+  bond:
+    name: 纯债
+    full_name: 嘉实超短债C
+    code: "070009"
+    weight: 0.30
+
+valuation_rules:
+  low_threshold: 30
+  high_threshold: 70
+  # 低估时按照示例把三只基金都翻倍：400/300/300。
+  low_multiplier: 2
+  # 高估时沪深300和创业板减半，省下的钱全部放入纯债。
+  high_multiplier: 0.5
+
+index_symbols:
+  hs300:
+    akshare_symbol: 沪深300
+    # AkShare 底层公开接口使用的指数代码，用于获取整体法 PE-TTM。
+    akshare_index_code: "000300.SH"
+    index_code: "000300"
+    fallback_market: SSE
+  chinext:
+    akshare_symbol: 创业板指
+    akshare_index_code: "399006.SZ"
+    index_code: "399006"
+    # 中证指数官网不提供创业板指的这条历史估值序列，备用时抓取公开指数页面。
+    fallback_market: SZSE
+  csi500:
+    akshare_symbol: 中证500
+    akshare_index_code: "000905.SH"
+    index_code: "000905"
+    fallback_market: SSE
+
+fallback:
+  enabled: true
+  timeout_seconds: 20
+  # AkShare 失败时，使用中证指数公开历史行情接口。
+  # 接口返回滚动市盈率，程序会根据近10年历史值计算当前 PE 百分位。
+  url_template: "https://www.csindex.com.cn/csindex-home/perf/indexCsiDsPe"
+  secondary_enabled: true
+  secondary_url_template: "https://www.etf.run/index/{fallback_market}/{index_code}"
+
+serverchan:
+  sendkey: "${SERVERCHAN_SENDKEY}"
+  endpoint: "https://sctapi.ftqq.com/{sendkey}.send"
+
+# Server酱推送报错时，只有同时配置了两个渠道才会自动改用 PushPlus。
+# 如果只配了这一项，会直接使用 PushPlus。
+pushplus_token: "${PUSHPLUS_TOKEN}"
+
+portfolio:
+  # 每月把支付宝里看到的组合总市值填在这里，例如 1580.00。
+  manual_current_value: 0
+
+monitor:
+  csi500_cheap_threshold: 30
+  csi500_watch_threshold: 50
+  take_profit_first_threshold: 20
+  take_profit_second_threshold: 30
+  # 首次止盈提醒发送后，收益率只有跌破这个值，才允许下次重新达到 20% 时再提醒。
+  take_profit_first_reset_threshold: 15
+  quarter_report_every_months: 3
+
+storage:
+  workbook: data/fund_records.xlsx
+  state_file: data/state.json
+  alert_history_file: data/alert_history.json

@@ -1,0 +1,7 @@
+# AkShare is the primary provider; the code also supports versions where
+# index_value_hist_funddb has been removed by using the official fallback.
+akshare>=1.16.72
+httpx>=0.28.1
+openpyxl>=3.1.5
+PyYAML>=6.0.2
+pandas>=2.2.3

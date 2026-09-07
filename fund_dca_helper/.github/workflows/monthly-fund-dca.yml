@@ -1,0 +1,44 @@
+name: 每月基金定投提醒
+
+on:
+  schedule:
+    # GitHub Actions 使用 UTC；01:00 UTC = 北京时间 09:00。
+    # 每月 1-5 号都检查，由 Python 判断当天是否是本月第一个交易日。
+    - cron: "0 1 1-5 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 下载代码
+        uses: actions/checkout@v4
+        with:
+          # 使用 GitHub 自动提供的令牌，让后续 git push 能写回当前仓库。
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 执行定投提醒
+        env:
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: python main.py
+
+      - name: 保存 Excel 和状态
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 首次运行时某些状态文件可能还未生成，暂存 data 中实际存在的文件即可。
+          git add -A -- data
+          git diff --cached --quiet || git commit -m "更新基金定投记录"
+          git push
