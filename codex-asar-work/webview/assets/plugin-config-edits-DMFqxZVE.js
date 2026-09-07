@@ -1,2 +1,0 @@
-import{$n as e,_t as t,ar as n,er as r,rr as i,tr as a}from"./src-DEDxOnN6.js";`${n}${r}`;var o=`${e}@${r}`;function s(e){let n=t(e);if(!(n==null||!i(n)))return a(e.slice(0,e.length-n.length-1))}function c({pluginId:e,enabled:t}){return[{keyPath:`plugins.${e}.enabled`,value:t,mergeStrategy:`upsert`}]}export{c as n,s as r,o as t};
-//# sourceMappingURL=plugin-config-edits-DMFqxZVE.js.map

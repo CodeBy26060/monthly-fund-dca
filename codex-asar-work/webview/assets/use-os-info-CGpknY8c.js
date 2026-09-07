@@ -1,2 +1,0 @@
-import{s as e,z as t}from"./app-scope-D4gJGP2y.js";import{r as n}from"./platform-C41Q7PfT.js";var r=t();function i(){let t=(0,r.c)(3),i=e(n),a;return t[0]!==i.data||t[1]!==i.isLoading?(a={data:i.data,isLoading:i.isLoading},t[0]=i.data,t[1]=i.isLoading,t[2]=a):a=t[2],a}export{i as t};
-//# sourceMappingURL=use-os-info-CGpknY8c.js.map

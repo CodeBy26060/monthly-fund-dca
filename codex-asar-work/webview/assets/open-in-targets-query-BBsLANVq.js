@@ -1,2 +1,0 @@
-import{t as e}from"./app-scope-D4gJGP2y.js";import{i as t,u as n}from"./vscode-api-D4QUNFB4.js";var r=t(e,`open-in-targets`,()=>({staleTime:n.ONE_MINUTE}));export{r as t};
-//# sourceMappingURL=open-in-targets-query-BBsLANVq.js.map

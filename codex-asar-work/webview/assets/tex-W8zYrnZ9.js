@@ -1,1 +1,0 @@
-import{t as e}from"./tex-DlD8nhY1.js";export{e as default};

@@ -1,2 +1,0 @@
-import{s as e,t,z as n}from"./app-scope-D4gJGP2y.js";import{A as r,a as i,r as a,u as o}from"./vscode-api-D4QUNFB4.js";var s=n(),c=i(t,`is-copilot-api-available`,{staleTime:o.INFINITE});function l(){let e=(0,s.c)(2),t=r(),n;return e[0]===t?n=e[1]:(n=()=>{t.invalidateQueries({queryKey:a(`is-copilot-api-available`)})},e[0]=t,e[1]=n),n}function u(){let{data:t}=e(c);return t?.available??!1}export{u as n,l as r,c as t};
-//# sourceMappingURL=use-is-copilot-api-available-C0kxjpQG.js.map

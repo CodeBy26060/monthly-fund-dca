@@ -1,2 +1,0 @@
-import{_ as e,g as t,t as n}from"./app-scope-D4gJGP2y.js";var r=20,i=t(n,[]),a=e(n,e=>null,void 0,{key:s});function o(e,t,n,o){if(o==null||n==null)return;let c={bundleIdentifier:t,imageName:n};if(e.get(a,c)===o)return;e.set(a,c,o);let l=s(c),u=[...e.get(i).filter(e=>s(e)!==l),c],d=u.slice(0,Math.max(0,u.length-r));for(let t of d)e.set(a,t,null);e.set(i,u.slice(d.length))}function s(e){return`${e.bundleIdentifier}\0${e.imageName??``}`}export{o as n,a as t};
-//# sourceMappingURL=appshot-icon-cache-DugACAVS.js.map

@@ -1,2 +1,0 @@
-import{c as e}from"./links-p-lcFrg2.js";import{t}from"./statsig-url-config-DCOdNHsn.js";var n=`4168530037`;function r(n){return t(n,e)}export{r as n,n as t};
-//# sourceMappingURL=browser-use-elevated-risk-learn-more-url-DzGiLD8q.js.map

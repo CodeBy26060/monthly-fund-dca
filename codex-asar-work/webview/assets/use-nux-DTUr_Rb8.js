@@ -1,2 +1,0 @@
-import{wr as e}from"./src-DEDxOnN6.js";import{t}from"./use-global-state-CETN_MKs.js";import{t as n}from"./use-auth-BszCLcDW.js";function r(){let{data:r,isLoading:i}=t(e.NUX_2025_09_15),{authMethod:a}=n();return`none`}export{r as t};
-//# sourceMappingURL=use-nux-DTUr_Rb8.js.map
