@@ -1,0 +1,2 @@
+import{t as e}from"./jsx-runtime-DXKlqYIQ.js";import{n as t,z as n}from"./app-scope-D4gJGP2y.js";import{A as r}from"./vscode-api-D4QUNFB4.js";var i=n(),a=e();function o(e){let n=(0,i.c)(3),{children:o}=e,s=r(),c;return n[0]!==o||n[1]!==s?(c=(0,a.jsx)(t,{queryClient:s,children:o}),n[0]=o,n[1]=s,n[2]=c):c=n[2],c}export{o as t};
+//# sourceMappingURL=app-Dvd_nNlf.js.map

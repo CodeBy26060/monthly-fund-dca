@@ -1,0 +1,2 @@
+import{l as e,t}from"./app-scope-D4gJGP2y.js";import{Et as n,Gi as r,St as i,Wi as a,ht as o,p as s}from"./app-server-manager-signals-CwJPQdLk.js";var c=e(t,(e,{get:t})=>e==null?null:a({id:e,title:t(i,e),turns:t(s,e)??t(n,e)})),l=e(t,(e,{get:t})=>{if(e==null)return null;let i=t(c,e);if(i!=null)return i;let a=t(o,e);return r(e,t(s,a)??t(n,a))});export{l as n,c as t};
+//# sourceMappingURL=local-conversation-title-signals-dRrqDmR9.js.map

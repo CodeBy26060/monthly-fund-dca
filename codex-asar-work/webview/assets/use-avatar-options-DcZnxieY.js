@@ -1,0 +1,2 @@
+import{s as e,z as t}from"./app-scope-D4gJGP2y.js";import{n,s as r}from"./custom-avatars-query-XswZsmJk.js";var i=t();function a(){let t=(0,i.c)(8),{data:a,isError:o,isFetching:s,isLoading:c}=e(n),l=a?.avatarDirectory??null,u=a?.avatars,d;t[0]===u?d=t[1]:(d=r(u),t[0]=u,t[1]=d);let f;return t[2]!==o||t[3]!==s||t[4]!==c||t[5]!==l||t[6]!==d?(f={avatarDirectory:l,avatarOptions:d,isError:o,isFetching:s,isLoading:c},t[2]=o,t[3]=s,t[4]=c,t[5]=l,t[6]=d,t[7]=f):f=t[7],f}export{a as t};
+//# sourceMappingURL=use-avatar-options-DcZnxieY.js.map

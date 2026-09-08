@@ -1,0 +1,2 @@
+import{r as e}from"./src-CXQQv8lx.js";function t(e,t){e.accDescr&&t.setAccDescription?.(e.accDescr),e.accTitle&&t.setAccTitle?.(e.accTitle),e.title&&t.setDiagramTitle?.(e.title)}e(t,`populateCommonDb`);export{t};
+//# sourceMappingURL=chunk-4BX2VUAB-D8O4KdaU.js.map

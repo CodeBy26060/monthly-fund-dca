@@ -1,0 +1,2 @@
+import{t as e}from"./app-scope-D4gJGP2y.js";import{a as t,u as n}from"./vscode-api-D4QUNFB4.js";var r=t(e,`extension-info`,{staleTime:n.INFINITE});export{r as t};
+//# sourceMappingURL=extension-info-DdDSTVuj.js.map

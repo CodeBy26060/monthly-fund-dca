@@ -1,0 +1,247 @@
+{
+  "cookies": [
+    {
+      "name": "acw_tc",
+      "value": "0a0d0f5817832147641406594ec97b4df1a860ae54bebb8c13d7b679634522",
+      "domain": "creator.xiaohongshu.com",
+      "path": "/",
+      "expires": 1783216563.793011,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ets",
+      "value": "1783214765024",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1785806765.024678,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "webBuild",
+      "value": "1.16.1",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xsecappid",
+      "value": "ugc",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1814751188,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "a1",
+      "value": "19f2fe1f4ba1svfv36gzq5kt54zij6flnn4vumuam50000153829",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1814750765,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "webId",
+      "value": "237cad5ce11a2a50e07dd1ac96371447",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1814750765,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "acw_tc",
+      "value": "0a4a1b2717832147670525460e0a228749d320458854da32f1dc7d85379126",
+      "domain": "edith.xiaohongshu.com",
+      "path": "/",
+      "expires": 1783216566.699083,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "acw_tc",
+      "value": "0a00076417832147676547479e4c77c7df5ef066e15209ddc7c63262bc0615",
+      "domain": "customer.xiaohongshu.com",
+      "path": "/",
+      "expires": 1783216567.317354,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gid",
+      "value": "yjiJidJ80yI0yjiJidyi4I67D0yMhihqKkuA4062T924uh283VKi17888y2qYJj8Ddqid82d",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1817774779.616254,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "websectiga",
+      "value": "3fff3a6f9f07284b62c0f2ebf91a3b10193175c06g4f71492b60e056edcdebb2",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1783474268,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sec_poison_id",
+      "value": "a187e509-39c9-4bdf-b0d6-85269e7fbcdf",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1783215672,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "customer-sso-sid",
+      "value": "68c517658850910060625922qbbiie8zihsfytpn",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1783819986.392154,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x-user-id-creator.xiaohongshu.com",
+      "value": "6a499bec000000000c03c400",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1817775187.392288,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "customerClientId",
+      "value": "623327084467970",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1817775187.392342,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "access-token-creator.xiaohongshu.com",
+      "value": "customer.creator.AT-68c517658850910060625923xkudtqtsz4zfvuzu",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1785807186.392388,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "galaxy_creator_session_id",
+      "value": "YxnyLmjg9z4T0lWczazXhLYsE99hC1AnIry4",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1785807187.392436,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "galaxy.creator.beaker.session.id",
+      "value": "1783215187743079027871",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1785807187.392489,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "loadts",
+      "value": "1783215188352",
+      "domain": ".xiaohongshu.com",
+      "path": "/",
+      "expires": 1814751188,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://creator.xiaohongshu.com",
+      "localStorage": [
+        {
+          "name": "b1b1",
+          "value": "1"
+        },
+        {
+          "name": "USER_INFO_FOR_BIZ",
+          "value": "{\"userId\":\"6a499bec000000000c03c400\",\"userName\":\"小红薯6A4A5F1C\",\"userAvatar\":\"https://sns-avatar-qc.xhscdn.com/avatar/645b7e371fc3de4c930eff9d.jpg?imageView2/2/w/80/format/jpg\",\"userDesc\":\"还没有简介\",\"redId\":\"63033802819\",\"role\":\"creator\",\"permissions\":[\"creatorCollege\",\"creatorWiki\",\"noteInspiration\",\"skillHub\",\"creatorHome\",\"creatorData\",\"USER_GROUP\",\"creatorActivityCenter\",\"ORIGINAL_STATEMENT\"],\"zone\":\"86\",\"phone\":\"13201307395\",\"relatedUserId\":null,\"relatedUserName\":null,\"realNameVerified\":false,\"realNameVerifyLink\":\"xhsdiscover://account/realName/atomization?businessCode=capa_podcast\",\"skillhubInfo\":{\"realNameVerified\":false,\"realNameVerifyUrl\":\"xhsdiscover://account/realName/atomization?businessCode=sns_skillhub\"},\"redAppInfo\":{\"realNameVerified\":false,\"realNameVerifyUrl\":\"xhsdiscover://account/realName/atomization?businessCode=sns_vibe_app\"},\"longAudioConfig\":{\"audioMinSeconds\":600,\"audioFileMaxSize\":1024,\"audioMaxSeconds\":7200,\"hasAudio\":true,\"summaryMaxDurationSeconds\":10800,\"needRealName\":false},\"cocreate\":null,\"advertiseBlockConfig\":null,\"kolCoOrder\":false}"
+        },
+        {
+          "name": "dsllt",
+          "value": "1783215188589"
+        },
+        {
+          "name": "p1",
+          "value": "2"
+        },
+        {
+          "name": "last_tiga_update_time",
+          "value": "1783215068070"
+        },
+        {
+          "name": "USER_INFO",
+          "value": "{\"user\":{\"type\":\"User\",\"value\":{\"userId\":\"6a499bec000000000c03c400\",\"loginUserType\":\"creator\"}}}"
+        },
+        {
+          "name": "NEW_XHS_ABTEST_REPORT_KEY",
+          "value": "{\"237cad5ce11a2a50e07dd1ac963714476a499bec000000000c03c400\":\"2026-07-05\"}"
+        },
+        {
+          "name": "snsWebPublishCurrentUser",
+          "value": "6a499bec000000000c03c400"
+        },
+        {
+          "name": "sdt_source_storage_key",
+          "value": "{\"commonPatch\":[\"/fe_api/burdock/v2/note/post\",\"/api/sns/web/v1/comment/post\",\"/api/sns/web/v1/note/like\",\"/api/sns/web/v1/note/collect\",\"/api/sns/web/v1/user/follow\",\"/api/sns/web/v1/feed\",\"/api/sns/web/v1/login/activate\",\"/api/sns/web/v1/note/metrics_report\",\"/api/redcaptcha\",\"/api/store/jpd/main\",\"/phoenix/api/strategy/getAppStrategy\",\"/web_api/sns/v2/note\"],\"extraInfo\":{\"kbconf\":null,\"fpMatchUrls\":null},\"url\":\"https://fe-static.xhscdn.com/as/v2/fp/643f48183a62c46e6c924b3f0456767a.js\",\"reportUrl\":\"/api/sec/v1/shield/webprofile\",\"desVersion\":\"2\",\"validate\":false,\"signUrl\":\"https://fe-static.xhscdn.com/as/v1/f218/a15/public/04b29480233f4def5c875875b6bdc3b1.js\",\"signVersion\":\"1\",\"xhsTokenUrl\":\"https://fe-static.xhscdn.com/as/v1/3e44/public/bf7d4e32677698655a5cadc581fd09b3.js\"}"
+        },
+        {
+          "name": "skill_hub_new_badge_shown",
+          "value": "1"
+        },
+        {
+          "name": "unloads_record",
+          "value": "[[1783214762471.4,3660],[1783214766131.8,421696]]"
+        },
+        {
+          "name": "b1",
+          "value": "I38rHdgsjopgIvesdVwgIC+oIELmBZ5e3VwXLgFTIxS3bqwErFeexd0ekncAzMFYnqthIhJeSBMDKutRI3KsYorWHPtGrbi0P9WfIi/eWc6eYqtyQApPI37ekmR6QL+5Ii6sdnoeSfqYHqwl2qt5B0DoIx+PGDi/sVtkIx0sxuwr4qtiIhuaIE3e3LV0I3VTIC7e0utl2ADmsLveDSKsSPw5IEvsiVtJOqw8BuwfPpdeTFWOIx4TIiu6ZPwrPut5IvlaLbgs3qtxIxes1VwHIkumIkIyejgsY/WTge7eSqte/D7sDcpipedeYrDtIC6eDVw2IENsSqtlnlSuNjVtIvoekqt3cZ7sVo4gIESyIhE4+9DUIvzy4I8OIic7ZPwUIviC4o/sDLds6PwVIC7eSd7s69ImIh6s3zrdQut5IEos3j5exLJsVPwcr9gsSPtxICMPLgoefuw5zn5sWVwrI3S2I3b6BVwO/qwGrjZayFOsD0OexutmIkJeYa/sx/QBIvOe6e5eWlRrIvNsDqwHIkHiwPwLNVt6I3OeiutdIEAedPtsI3ge3PwrzVtv2Pt8IkS7I3It4aGS2z/eiutjIiRyIh5sWPwoeWccpUNsDskuIkGyGuwbmqwIICdekVtUKmdsxS7eTLGTIxdsV0ge3PwcmuwrI3defVwfIkgs60WBICKedo/eSVt7I3Os1Pw6898OIEZJIC6sVr6ex97ejD7sYPtKIiMFI3MurVtKIvz7IE5sVpHI+UosWVtqIEE+BqtMJYNsjF5s0qwsePwZICYDIkcLcPtcyVtpIv5eSL0e0qw18qtzICMy+utLIC8aO0EBIk/sDMAsxLNeSVwDsutRI3uxIk7sjqtmIC7eTd8rIEzEHsM7IEpkIE0efuwLyqtUsPtaIicyIvAskAAe1uw3nBZYICid2PtGmPtrIkF1I3bJIiTDIhee67AsjF4RNuwkICDVpuwjBVwSIC/eDor/I3Figf3eiPtTbVteoZP/PFiEIxbsLqwOIiAsDWTLIkEOtVwfIk+Gwqt+oVtPIhu7Ih4NIvTuHuwYIir+ICvskVwTrY4eIEqmICosYoos3VwRICSiICLFLZhuIhlKc/F4IC7s0F7e6PwmIEJs3qtJIhq/IE0sSqwyICEnbuwuICJskYhlqVtWePt6Ih6e6VtRICAsk74NICes1dJsjqtRraos3qwEPDKsSqt4Ix6sD0vefVtaIhhfIxEGBuwcNcpRIk0eDuwywY6eVjmpoVtgIiTqIkesDYMpI3Ae0qtRICZHIENexFz0IEuLIiWMgpSRIE0efmFCIvRdI3r1ICOsSIzKwVtWcqtJeSvsY96sTqw6I3vs0D5s3VttzVwgIC+acPtTbqwKHqtF+VtTJVwV2B/e6moekngsil6e1PwpIkIGIizMIClCIvesVsAeT0EV8utzIELqgqwN2s/ekqwgICosYrNefnqyI3gsYqtO8FZ9IC3sDuw0I35s3VtAHuwcIv6sYeFGwVtLef3efZuYIkJsdPtNZuw5L/0e1Pt9BPwgsqtwIC84IEMApl0sDz5siuwhIxOeVqwo/VtJy7JexlE6Lj8iHppIpVtKmVtNIxpVI3FyIvWYQp0eVdm4IxqrIxzbaqwrI3mvJqwOIkNe6cWSbVt1IhW/zPtZI37s6zQyIkQvIvgeYutqsPwbblAeSsdsdPtz+PtKI3M5OutpIiOsd9eeYf3sxuwnIxlmIkee1/m2Ix5e0uwbIvGAIC/sWuty8mmHnVwUbutpIxRUzqt8Iv/s0I3e0PwNIhoe67qGI3geSbge0qwoIkRgIvq2p9oeWzgs0PwtIigsjjgexuwjePw/zVtoIhTgIvOsYqwuIhF+Ivz04Vwk"
+        },
+        {
+          "name": "_renderInfo",
+          "value": "angle (nvidia, nvidia geforce rtx 4060 ti (0x00002803) direct3d11 vs_5_0 ps_5_0, d3d11)"
+        },
+        {
+          "name": "xhs_context_networkQuality",
+          "value": "EXCELLENT"
+        }
+      ]
+    }
+  ]
+}
